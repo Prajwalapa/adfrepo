@@ -55,7 +55,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "csv_srce",
+						"referenceName": "destndataset",
 						"type": "DatasetReference"
 					}
 				]
