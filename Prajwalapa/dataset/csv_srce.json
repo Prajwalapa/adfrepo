@@ -10,8 +10,9 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "rgd2.dstn",
-				"fileSystem": "destn"
+				"fileName": "oreders-20205.xlsx",
+				"folderPath": "rgda",
+				"fileSystem": "srce"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
