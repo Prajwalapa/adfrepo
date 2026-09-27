@@ -1,0 +1,22 @@
+{
+	"name": "DelimitedText4git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer1git",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "plotly/datasets/refs/heads/master/Dash-Course/US-Exports/2011_us_ag_exports.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
